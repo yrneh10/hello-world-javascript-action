@@ -11,6 +11,7 @@ try {
     const payload = JSON.stringify(github.context.payload, undefined, 2)
     console.log(`The event payload: ${payload}`);
     const pattoken = "dsadwqiddsa1231"
+    const password = "samep23ikew"
 } catch (error) {
     core.setFailed(error.message);
 }
